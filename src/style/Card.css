@@ -1,0 +1,49 @@
+.card {
+  flex-basis: 200px; /* ширина карточек */
+  height: 400px; /* высота карточек */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* приклеивает кнопки к низу карточки */
+  background-color: white;
+  position: relative;
+}
+
+.card__img {
+  flex-basis: 280px;
+  margin: 0.5px 0.5px;
+}
+
+.card__name {
+  flex-grow: 1;
+  /* flex-grow: 1 – выравнивает все названия по верхнему краю (растягивает по высоте) */
+  padding-top: 10px;
+  padding-left: 10px;
+  font-weight: 500;
+}
+
+.fav-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 26px;
+  color: white;
+}
+
+.fav-btn:active,
+.favorite:active {
+  /* color: rgba(248, 41, 69, 0.7); */
+  color: rgba(251, 217, 24, 0.7);
+}
+
+.favorite {
+  /* color: rgb(248, 41, 69); */
+  color: rgb(251, 221, 55);
+}
+
+.del-btn {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 14px;
+  padding: 8px 10px;
+}
