@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test-redux-cards/static/css/main.c3bfc4d5.css",
+    "main.js": "/test-redux-cards/static/js/main.a3eb5718.js",
+    "index.html": "/test-redux-cards/index.html",
+    "main.c3bfc4d5.css.map": "/test-redux-cards/static/css/main.c3bfc4d5.css.map",
+    "main.a3eb5718.js.map": "/test-redux-cards/static/js/main.a3eb5718.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3bfc4d5.css",
+    "static/js/main.a3eb5718.js"
+  ]
+}
